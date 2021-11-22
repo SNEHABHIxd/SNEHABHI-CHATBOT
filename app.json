@@ -1,0 +1,20 @@
+{
+   "name": "SNEHABHI CHATBot",
+   "description": "An Anime themed Telegram group management bot.",
+   "repository": "https://github.com/ABHI-xd/SNEHABHI-CHATBOT",
+   "addons": [
+      {
+         "options": {
+            "version": "12"
+         },
+         "plan": "heroku-postgresql"
+      }
+   ],
+   "env": {
+      "TOKEN": {
+         "description": "Your bot token. Get one from @BotFather",
+         "required": true,
+         "value": ""
+      }
+   }
+}
