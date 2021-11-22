@@ -1,5 +1,4 @@
 build:
   docker:
     worker: snehu
-run:
-  worker: python3 -m snehabhi.py
+
