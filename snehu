@@ -76,4 +76,4 @@ ENV PATH="/home/bot/bin:$PATH"
 RUN pip3 install -U -r abhi
 
 # Starting Worker
-CMD ["python3","-m","Mizuki"]
+CMD ["python3","-m","snehabhi.py"]
